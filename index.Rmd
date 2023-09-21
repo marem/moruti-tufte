@@ -1,11 +1,11 @@
 ---
-title: "A Tufte Handout Example"
-runningheader: "Tufte Handout with R Markdown" # only for pdf output
-subtitle: "An implementation in R Markdown" # only for html output
-author: "JJ Allaire and Yihui Xie"
+title: "Moruti Design"
+runningheader: "Cultivating Influence through Behavioural Design Research" # only for pdf output
+subtitle: "Cultivating Influence through Behavioural Design Research" # only for html output
+author: "Marcel Maré"
 date: "`r Sys.Date()`"
 output:
-  tufte::tufte_html: default
+  tufte::tufte_html:
   tufte::tufte_handout:
     citation_package: natbib
     latex_engine: xelatex
@@ -24,7 +24,13 @@ options(htmltools.dir.version = FALSE)
 ```
 
 # Professional Summary
+```{marginfigure toc}
+<strong>Table of Contents</strong><br>
+1. [Professional Summary](#professional-summary)  <br>
+2. [Introduction](#introduction)  <br>
+```
 Marcel works at the intersection of design and the behavioural sciences. He holds a Doctoral degree in Design, specialising in the application of behavioural sciences in the design of interventions and a Master's degree in the application of social marketing strategies in a South African context. He has over ten years of experience as a researcher and lecturer in multimedia. In addition, he has spent over five years working with the CSIR and other clients, where he developed valuable skills in executing complex interaction design projects for services and experiences independently and as part of a team.
+
 
 With his background in design, economics and the sciences, he has worked in both academic and corporate environments, giving him a unique perspective on the intersection of design, technology and human behaviour. He has conducted behavioural change interventions, produced behavioural analyses of problems and advised on actionable service design solutions. He is adept at developing cross-disciplinary approaches in alignment with operational frameworks and integrating advanced technological methods and practices.
 
@@ -33,7 +39,8 @@ His experience has equipped him to design, develop, and implement novel behaviou
 In addition to disseminating results in peer-reviewed publications, he enjoys presenting findings through engaging demonstrations (i.e. TEDx, workshops, and other speaking engagements).
 
 # Introduction
-
+```{marginfigure toc}
+```
 The Tufte handout style is a style that Edward Tufte uses in his books and handouts. Tufte's style is known for its extensive use of sidenotes, tight integration of graphics with text, and well-set typography. This style has been implemented in LaTeX and HTML/CSS^[See Github repositories [tufte-latex](https://github.com/tufte-latex/tufte-latex) and [tufte-css](https://github.com/edwardtufte/tufte-css)], respectively. We have ported both implementations into the [**tufte** package](https://github.com/rstudio/tufte). If you want LaTeX/PDF output, you may use the `tufte_handout` format for handouts, and `tufte_book` for books. For HTML output, use `tufte_html`. These formats can be either specified in the YAML metadata at the beginning of an R Markdown document (see an example below), or passed to the `rmarkdown::render()` function. See @R-rmarkdown for more information about **rmarkdown**.
 
 ```yaml

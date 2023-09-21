@@ -1,0 +1,22 @@
+/* Style the table of contents as a sidenote */
+#toc-sidenote {
+  position: fixed;
+  top: 0;
+  right: 0;
+  max-height: 100%;
+  overflow-y: auto;
+  padding: 1em;
+  background-color: #f7f7f7;
+  border-left: 1px solid #ccc;
+  z-index: 9999;
+}
+
+/* Optional: Style the TOC links */
+#toc-sidenote a {
+  color: #333;
+  text-decoration: none;
+}
+
+#toc-sidenote a:hover {
+  text-decoration: underline;
+}
