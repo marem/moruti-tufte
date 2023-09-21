@@ -23,12 +23,14 @@ knitr::opts_chunk$set(cache.extra = packageVersion('tufte'))
 options(htmltools.dir.version = FALSE)
 ```
 
-# Home
+# Professional Summary
+Marcel works at the intersection of design and the behavioural sciences. He holds a Doctoral degree in Design, specialising in the application of behavioural sciences in the design of interventions and a Master's degree in the application of social marketing strategies in a South African context. He has over ten years of experience as a researcher and lecturer in multimedia. In addition, he has spent over five years working with the CSIR and other clients, where he developed valuable skills in executing complex interaction design projects for services and experiences independently and as part of a team.
 
-With Moruti I create behaviour-focused strategies that are both effective and engaging. By using behavioural insights as a foundation, I help clients create engaging experiences with clarity and purpose.
-I work closely with clients to identify the specific behavioural challenges and explore the context behind them. We then co-create innovative conceptual avenues. The emergent solution is then collaboratively implemented and assessed.
-I firmly believe that a behaviour-centred approach is the key to unlocking individual and organisational potential to drive sustained growth in companies and communities. 
-Contact me to learn how I can help your organisation achieve its goals through behavioural design.
+With his background in design, economics and the sciences, he has worked in both academic and corporate environments, giving him a unique perspective on the intersection of design, technology and human behaviour. He has conducted behavioural change interventions, produced behavioural analyses of problems and advised on actionable service design solutions. He is adept at developing cross-disciplinary approaches in alignment with operational frameworks and integrating advanced technological methods and practices.
+
+His experience has equipped him to design, develop, and implement novel behaviour-focused service strategies guided by evidence-based behavioural theories and models (e.g., repetition learning, mismatch theory, COM-B, MINDSPACE and the Evo-Eco model). His skills include exploring user needs (i.e., diagnosis) and the workshop-based co-creation and delivery of interventions and campaigns. His experience extends to evaluating interventions such as case-based choice experiments (i.e., WTP and DCE using R Studio and other similar tools).
+
+In addition to disseminating results in peer-reviewed publications, he enjoys presenting findings through engaging demonstrations (i.e. TEDx, workshops, and other speaking engagements).
 
 # Introduction
 
